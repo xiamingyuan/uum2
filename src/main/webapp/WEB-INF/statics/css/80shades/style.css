@@ -1,0 +1,283 @@
+@font-face {
+	font-family: 'eightyshades';
+	src:url('fonts/eightyshades.eot');
+	src:url('fonts/eightyshades.eot?#iefix') format('embedded-opentype'),
+		url('fonts/eightyshades.woff') format('woff'),
+		url('fonts/eightyshades.ttf') format('truetype'),
+		url('fonts/eightyshades.svg#eightyshades') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* Use the following CSS code if you want to use data attributes for inserting your icons */
+[data-icon]:before {
+	font-family: 'eightyshades';
+	content: attr(data-icon);
+	speak: none;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+/* Use the following CSS code if you want to have a class per icon */
+/*
+Instead of a list of all class selectors,
+you can use the generic selector below, but it's slower:
+[class*="icon-80shades-"] {
+*/
+.icon-80shades-store, .icon-80shades-out, .icon-80shades-in, .icon-80shades-in-alt, .icon-80shades-home, .icon-80shades-light-bulb, .icon-80shades-anchor, .icon-80shades-feather, .icon-80shades-expand, .icon-80shades-maximize, .icon-80shades-search, .icon-80shades-zoom-in, .icon-80shades-zoom-out, .icon-80shades-add, .icon-80shades-subtract, .icon-80shades-exclamation, .icon-80shades-question, .icon-80shades-close, .icon-80shades-cmd, .icon-80shades-forbid, .icon-80shades-book, .icon-80shades-spinner, .icon-80shades-play, .icon-80shades-stop, .icon-80shades-pause, .icon-80shades-forward, .icon-80shades-rewind, .icon-80shades-sound, .icon-80shades-sound-alt, .icon-80shades-sound-off, .icon-80shades-task, .icon-80shades-inbox, .icon-80shades-inbox-alt, .icon-80shades-envelope, .icon-80shades-compose, .icon-80shades-newspaper, .icon-80shades-newspaper-alt, .icon-80shades-clipboard, .icon-80shades-calendar, .icon-80shades-hyperlink, .icon-80shades-trash, .icon-80shades-trash-alt, .icon-80shades-grid, .icon-80shades-grid-alt, .icon-80shades-menu, .icon-80shades-list, .icon-80shades-gallery, .icon-80shades-calculator, .icon-80shades-windows, .icon-80shades-browser, .icon-80shades-alarm, .icon-80shades-clock, .icon-80shades-attachment, .icon-80shades-settings, .icon-80shades-portfolio, .icon-80shades-user, .icon-80shades-users, .icon-80shades-heart, .icon-80shades-chat, .icon-80shades-comments, .icon-80shades-screen, .icon-80shades-iphone, .icon-80shades-ipad, .icon-80shades-fork-and-spoon, .icon-80shades-fork-and-knife, .icon-80shades-instagram, .icon-80shades-facebook, .icon-80shades-delicious, .icon-80shades-googleplus, .icon-80shades-dribbble, .icon-80shades-pin, .icon-80shades-pin-alt, .icon-80shades-camera, .icon-80shades-brightness, .icon-80shades-brightness-half, .icon-80shades-moon, .icon-80shades-cloud, .icon-80shades-circle-full, .icon-80shades-circle-half, .icon-80shades-globe, .icon-80shades-untitled {
+	font-family: 'eightyshades';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+}
+.icon-80shades-store:before {
+	content: "\e000";
+}
+.icon-80shades-out:before {
+	content: "\e001";
+}
+.icon-80shades-in:before {
+	content: "\e002";
+}
+.icon-80shades-in-alt:before {
+	content: "\e003";
+}
+.icon-80shades-home:before {
+	content: "\e004";
+}
+.icon-80shades-light-bulb:before {
+	content: "\e005";
+}
+.icon-80shades-anchor:before {
+	content: "\e006";
+}
+.icon-80shades-feather:before {
+	content: "\e007";
+}
+.icon-80shades-expand:before {
+	content: "\e008";
+}
+.icon-80shades-maximize:before {
+	content: "\e009";
+}
+.icon-80shades-search:before {
+	content: "\e00a";
+}
+.icon-80shades-zoom-in:before {
+	content: "\e00b";
+}
+.icon-80shades-zoom-out:before {
+	content: "\e00c";
+}
+.icon-80shades-add:before {
+	content: "\e00d";
+}
+.icon-80shades-subtract:before {
+	content: "\e00e";
+}
+.icon-80shades-exclamation:before {
+	content: "\e00f";
+}
+.icon-80shades-question:before {
+	content: "\e010";
+}
+.icon-80shades-close:before {
+	content: "\e011";
+}
+.icon-80shades-cmd:before {
+	content: "\e012";
+}
+.icon-80shades-forbid:before {
+	content: "\e013";
+}
+.icon-80shades-book:before {
+	content: "\e014";
+}
+.icon-80shades-spinner:before {
+	content: "\e015";
+}
+.icon-80shades-play:before {
+	content: "\e016";
+}
+.icon-80shades-stop:before {
+	content: "\e017";
+}
+.icon-80shades-pause:before {
+	content: "\e018";
+}
+.icon-80shades-forward:before {
+	content: "\e019";
+}
+.icon-80shades-rewind:before {
+	content: "\e01a";
+}
+.icon-80shades-sound:before {
+	content: "\e01b";
+}
+.icon-80shades-sound-alt:before {
+	content: "\e01c";
+}
+.icon-80shades-sound-off:before {
+	content: "\e01d";
+}
+.icon-80shades-task:before {
+	content: "\e01e";
+}
+.icon-80shades-inbox:before {
+	content: "\e01f";
+}
+.icon-80shades-inbox-alt:before {
+	content: "\e020";
+}
+.icon-80shades-envelope:before {
+	content: "\e021";
+}
+.icon-80shades-compose:before {
+	content: "\e022";
+}
+.icon-80shades-newspaper:before {
+	content: "\e023";
+}
+.icon-80shades-newspaper-alt:before {
+	content: "\e024";
+}
+.icon-80shades-clipboard:before {
+	content: "\e025";
+}
+.icon-80shades-calendar:before {
+	content: "\e026";
+}
+.icon-80shades-hyperlink:before {
+	content: "\e027";
+}
+.icon-80shades-trash:before {
+	content: "\e028";
+}
+.icon-80shades-trash-alt:before {
+	content: "\e029";
+}
+.icon-80shades-grid:before {
+	content: "\e02a";
+}
+.icon-80shades-grid-alt:before {
+	content: "\e02b";
+}
+.icon-80shades-menu:before {
+	content: "\e02c";
+}
+.icon-80shades-list:before {
+	content: "\e02d";
+}
+.icon-80shades-gallery:before {
+	content: "\e02e";
+}
+.icon-80shades-calculator:before {
+	content: "\e02f";
+}
+.icon-80shades-windows:before {
+	content: "\e030";
+}
+.icon-80shades-browser:before {
+	content: "\e031";
+}
+.icon-80shades-alarm:before {
+	content: "\e032";
+}
+.icon-80shades-clock:before {
+	content: "\e033";
+}
+.icon-80shades-attachment:before {
+	content: "\e034";
+}
+.icon-80shades-settings:before {
+	content: "\e035";
+}
+.icon-80shades-portfolio:before {
+	content: "\e036";
+}
+.icon-80shades-user:before {
+	content: "\e037";
+}
+.icon-80shades-users:before {
+	content: "\e038";
+}
+.icon-80shades-heart:before {
+	content: "\e039";
+}
+.icon-80shades-chat:before {
+	content: "\e03a";
+}
+.icon-80shades-comments:before {
+	content: "\e03b";
+}
+.icon-80shades-screen:before {
+	content: "\e03c";
+}
+.icon-80shades-iphone:before {
+	content: "\e03d";
+}
+.icon-80shades-ipad:before {
+	content: "\e03e";
+}
+.icon-80shades-fork-and-spoon:before {
+	content: "\e03f";
+}
+.icon-80shades-fork-and-knife:before {
+	content: "\e040";
+}
+.icon-80shades-instagram:before {
+	content: "\e041";
+}
+.icon-80shades-facebook:before {
+	content: "\e042";
+}
+.icon-80shades-delicious:before {
+	content: "\e043";
+}
+.icon-80shades-googleplus:before {
+	content: "\e044";
+}
+.icon-80shades-dribbble:before {
+	content: "\e045";
+}
+.icon-80shades-pin:before {
+	content: "\e046";
+}
+.icon-80shades-pin-alt:before {
+	content: "\e047";
+}
+.icon-80shades-camera:before {
+	content: "\e048";
+}
+.icon-80shades-brightness:before {
+	content: "\e049";
+}
+.icon-80shades-brightness-half:before {
+	content: "\e04a";
+}
+.icon-80shades-moon:before {
+	content: "\e04b";
+}
+.icon-80shades-cloud:before {
+	content: "\e04c";
+}
+.icon-80shades-circle-full:before {
+	content: "\e04d";
+}
+.icon-80shades-circle-half:before {
+	content: "\e04e";
+}
+.icon-80shades-globe:before {
+	content: "\e04f";
+}
+.icon-80shades-untitled:before {
+	content: "\e050";
+}

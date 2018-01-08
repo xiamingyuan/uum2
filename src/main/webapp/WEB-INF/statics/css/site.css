@@ -1,0 +1,224 @@
+/* CSS Document */
+@charset "utf-8";
+html, body{}
+body{
+
+    font-family: Verdana, "Lantinghei SC", "Hiragino Sans GB", "Microsoft Yahei", Helvetica, arial, \5b8b\4f53, sans-serif;
+
+}
+ul{
+	margin:0 auto; 
+	padding:0; 
+	list-style-type:none;
+	font-size:0;
+
+}
+div, h1, h2, h3, h4, p, form, label, input, textarea, img, span{
+	margin:0; padding:0;
+}
+th,label,.label{font-weight: 500}
+
+.f_left{float:left;}
+.f_right{float:right;}
+
+.spacer{
+	clear:both; 
+	font-size:0; 
+	line-height:0;
+}
+a {
+  color: #b96e03;
+  text-decoration: none;
+}
+
+a:hover,
+a:focus {
+  color: #fda100;
+  text-decoration: none;
+}
+
+a:focus {
+  outline: thin dotted #333;
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+.m_center{margin:0 auto; }
+.margin_per45{margin-left:45%;}
+.small{font-size:10px;} 
+.large{font-size:14px;} 
+.x-large{font-size:15px;} 
+.largest{font-size:24px;} 
+.smaller{font-size:smaller;} 
+.bold{ font-weight:bold;}
+.text{font-size:12px;}
+.text-muted {  color: #a6a6a6;}
+.text_white{  color: #fff;}
+.text-primary {  color: #028fad;}
+a.text-primary { color: #028fad; text-decoration:none;}
+a.text-primary:hover{color: #c30255; text-decoration:none;}
+.text-gray {  color: #bfbbba;}
+.text-warning {  color: #c09853;}
+.text-default{color:#808080;}
+.text-danger {  color: #e23801;}
+
+.text-success {  color: #05ab1c;}
+
+.text-info {  color: #455e85;}
+a.text-info{ font-size:12px; color:#3a87ad; padding-right:10px; text-decoration:none;}
+a.text-info:hover{  color: #455e85; text-decoration:none; }
+
+.text-left {  text-align: left;}
+
+.text-right {  text-align: right;}
+
+.text-center {  text-align: center;}
+
+body.modal-open, .modal-open .navbar-fixed-top, .modal-open .navbar-fixed-bottom{margin-right: 0;}
+
+/*------------------------------------------------------*
+/*---------------login start-------------*/
+.body_login{ background:#fddc7c url(image/bg_login.png) repeat-y;}
+.header_login{ border:0px solid red; background:url(image/bg_headerlogin.jpg); background-size:cover;  overflow:hidden; padding:170px 0px 0px 200px;margin:0; min-width:800px;}
+.container_login{border:0px solid red;overflow:hidden; background:#fddc7c; height:calc(100% - 245px); position:relative; padding:0 0 0 287px; min-width:800px;}
+.container_loginform{ background:#f1ad3a; }
+
+ul.logingroup{ padding:40px 0 0 0; overflow:hidden; list-style-type:none;}
+ul.logingroup li{margin-bottom:27px;}
+.form_login{ height:270px; padding-left:40px;}
+.form_login label{ display:inline-block;  width:80px; text-align:right; font-size:14px; color:#605954; }
+.form_login input[type="text"],.form_login input[type="password"]{  font-size:13px;line-height:35px;height:35px; color:#808080;border-radius:4px; border:none; background:#fddc7c; padding:0 12px;}
+.form_login .btn-warning{padding:5px 14px; font-size:15px; line-height:25px; height:25px; margin-right:10px; background:#a14d00; color:#f1eee9; border:1px solid  #a14d00;}
+.form_login input::-webkit-input-placeholder { /* WebKit browsers */
+    color:#db7d0b;
+}
+.form_login input:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color:#db7d0b;
+}
+.form_login input::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color:#db7d0b;
+}
+.form_login input:-ms-input-placeholder { /* Interet Explorer 10+ */
+    color:#db7d0b;
+}
+.footer_login{ color:#995d08; position:absolute; bottom:20px; right:50px; text-align:right;  border:0px solid red;}
+/*---------------login end-------------*/
+/*---------------header start-------------*/
+
+.header{ border:0px solid red; background:#4d4540; overflow:hidden; height:54px; }
+.logo{display:block; float:left; width:88px; height:54px; background:#363029;text-align: center;}
+.logo img{border:0;margin-top:9px;width: 33px;height: 35px;}
+.close_top{ float:right; padding:25px 20px 0 0 ;font-size:12px; color:#fff;	}
+.close_top a:visited{opacity: 0.2;}
+.close_top a{opacity: 0.2;}
+.close_top img{border:none;}
+.close_top a:hover{opacity: 0.9;}
+.name{float:left; width:250px; padding:5px 0 0 20px; }
+.name_cn{font-size:20px; font-weight:bold; color:#ece5d1;text-shadow: 1px 1px 2px #534d48;letter-spacing:4px;}
+.name_en{font-size:12px; font-weight:bold; color:#d5993b; font-family: Arial, Helvetica, sans-serif; letter-spacing:0.2px;text-shadow: 1px 1px 2px #534d48; }
+
+/*---------------header end-------------*/
+
+/*---------------container_body start-------------*/
+.container_body{border:0px solid red;/*overflow:auto;*/ background:#fff;/*height:calc(100% - 54px);*/background: url(../image/bg_leftmenu.png) repeat-y;min-height:600px;/* position:relative;*/ width:100%; border:0px solid red;}
+
+.container_right{/*  position:absolute; left:87px; top:0; right:0px; overflow:auto;height: 100%;*/float: left;width: calc(100% - 87px);}/*首页*/
+
+.container_leftmenu{width:87px;border:0px solid red;overflow:hidden; background:#f1ad3a url(../image/bg_leftmenu.png) repeat-y; height:calc(100% - 54px); position:relative;float: left;}
+.leftmenu{overflow:hidden;width:87px; background:#f1ad3a; min-height:780px;}
+.leftmenu li .tit{color:#944700; font-size:12px; font-weight:500; line-height:20px; text-align:center; display:block;text-decoration:none;}
+
+.leftmenu li .tit_icon{color:#944700; font-size:35px;   line-height:60px;text-align:center; display:block;text-decoration:none;}
+
+.leftmenu li a {color:#944700; text-decoration:none; background:none; padding:15px 0 10px 0;display:block;transition: all 0.3s ease 0s;}
+ .leftmenu li a:hover{ background:#fddc7c; color:#fff; text-decoration:none;}
+  .leftmenu li a:hover span{color:#944700;}
+.leftmenu li{padding:0;}
+/*.leftmenu li a.selected{ background:#fff;}*/
+
+.leftmenu.org .org,
+.leftmenu.app .app,
+.leftmenu.role .role,
+.leftmenu.perm .perm,
+.leftmenu.user .user,
+.leftmenu.auth .auth,
+.leftmenu.online .online{
+	background-color:#fff;
+    outline: none;
+}
+/*---------------container_body end-------------*/
+
+/*-------------------------2nd page start---------------------------*/
+
+.btn_userid { padding:5px 10px; cursor:pointer;  }
+.btn_userid:hover,.btn_userid:active{ padding:5px 10px; border-radius:4px;background-image: none; }
+.header .btn-group.open .dropdown-toggle {border:1px solid #7e7874;border-radius:4px;
+  -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+          box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+}
+
+/*-----table style----------*/
+.tablebox{margin:0 10px 10px 10px; }
+table td{color:#666;}
+.alert{margin-bottom: 0;}
+.modal-footer{padding: 15px 20px 15px;margin-top:0;}
+.modal{overflow-y: auto;}
+/*-----footer start------*/
+.footer{ clear:both; font-size:12px; text-align:right; padding:20px; color:#c8c0ac; font-weight:bold; background:#4d4540;}
+/*-----footer end------*/
+
+.nav, .pagination, .carousel, .panel-title a { cursor: pointer; }
+.tableboxpos{ position: static;/*min-height: 485px;*/}
+.pagepos{position: static;border-top: 1px solid #dddddd;  padding: 10px 0;  background-color: #f2f2f2;}
+.pagepos .pagination{margin:0;}
+/*-----bootbox start------*/
+.bootbox.fade.in{top: 50%;  left: 50%;  width: 400px;  height: 124px;  margin-left: -200px;  margin-top: -110px;background: #fff;border-radius: 6px;}
+.bootbox .modal-body{color:#555;  font-weight:300;}
+/*-----bootbox end------*/
+
+
+/*-----New Add To Action Bar 20160708 13:00-----*/
+.clearfix {zoom:1}
+.clearfix:after {content: '\20'; display: block; clear: both;}
+.navbar{min-height: 39px;height: 39px;}
+.navbar-default{background-color: #a99688;border-color: #a99688;}
+.navbar-default .navbar-brand{color: #fff;transition: all 0.3s ease 0s;padding: 10px 15px;}
+.navbar-default .navbar-brand:hover{color: #fff;}
+.navbar-default .navbar-nav > li > a{color: #fff;transition: all 0.3s ease 0s;}
+.navbar-default .navbar-nav > li > a:hover{color: #944700;background-color: #dcd4d1;}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus{color: #944700;background-color: #fff;}
+.navbar-brand{font-size: 16px;}
+@media (min-width: 768px){
+    .navbar-nav > li > a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+}
+.form-group-pop{position: relative;padding: 0px 15px; margin-top: 0px;margin-bottom: 0;}
+.form-group-pop .btn-default{position: absolute;top:0;right: 0;height: 30px;border-radius: 0px 3px 3px 0px; width: 35px;padding: 0;text-indent: -9999px;background-image: url("../image/icon-search.png");background-position: center;background-repeat: no-repeat;}
+.form-group-pop .form-control{height: 30px;}
+
+/*table new*/
+.tableboxpos-color{border-color: #f2f2f2;}
+.panel-warning > .panel-heading-new-color{background-color: #ecf0f1;border-color: #ddd;padding: 8px 15px;color:#944700;}
+.panel-heading-new-color .icon-table{display: inline-block;width: 19px;height: 14px;background-image: url("../image/icon-table.png");background-position: center;background-repeat: no-repeat;float: left;margin-top: 3px;margin-right: 5px;}
+.table thead > tr > th{ border-bottom: 1px solid #dddddd;}
+.table-hover tbody > tr:nth-child(2n){background-color: #f9f9f9;}
+.table thead > tr > th, .table tbody > tr > th, .table tfoot > tr > th, .table thead > tr > td, .table tbody > tr > td, .table tfoot > tr > td{font-size: 14px;}
+/*operating-btn 操作按钮*/
+.operating-btn a{display: inline-block;line-height: 22px;padding: 0px 7px;border-radius: 3px;margin:0px 3px;color: #fff;font-size: 12px;text-align: center;transition: all 0.3s ease 0s;}
+.operating-btn a.authorize{background-color: #1abc9c;}
+.operating-btn a.edit{background-color: #5cc0de;background-image: url("../image/icon-edit.png");background-position: center;background-repeat: no-repeat;width: 12px;text-indent: -9999px;}
+.operating-btn a.delete{background-color: #d8524e;background-image: url("../image/icon-delete.png");background-position: center;background-repeat: no-repeat;width: 12px;text-indent: -9999px;}
+.operating-btn a.character{background-color: #448bf1;}
+.operating-btn a.password{background-color: #d09f1c;}
+.operating-btn a.downline{background-color: #888888;}
+.operating-btn a.authorize:hover{background-color: #41dabc;}
+.operating-btn a.edit:hover{background-color: #61d2f3;}
+.operating-btn a.delete:hover{background-color: #f36561;}
+.operating-btn a.character:hover{background-color: #70a8f9;}
+.operating-btn a.password:hover{background-color: #f1c244;}
+.operating-btn a.downline:hover{background-color: #a5a5a5;}
+
+/*机构管理new*/
+.panel-warning > .panel-heading{background-color: #f2f2f2;  border-color: #f2f2f2;}
+

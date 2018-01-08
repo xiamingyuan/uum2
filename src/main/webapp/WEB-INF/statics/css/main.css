@@ -1,0 +1,12 @@
+/*首页导航公用*/
+.x-tree-elbow-img, .x-tree-icon{display:inline-block;}
+/*icon*/
+[class^="icon-"], [class*=" icon-"]{width: 16px;text-align: center;}
+.add16{background-image: url(../image/icon/add16.gif) !important;}
+
+/*翻页CSS修复*/
+.x-toolbar-item label.x-unselectable{width: 0px !important;}
+.x-webkit input.x-form-text{height:100% !important;}
+
+
+

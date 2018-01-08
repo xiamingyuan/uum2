@@ -1,0 +1,21 @@
+﻿.border {
+    border: 1px solid red;
+}
+
+#btns-operate {
+    margin: 25px 10px 0 10px;
+}
+
+    #btns-operate button {
+        margin-top: 2px;
+    }
+
+.lable {
+    margin-left: 10px;
+    margin-bottom:5px;
+    color:#00b6ff;
+    font-weight:bold;
+}
+.modal .modal-dialog{
+    width:800px;
+}
